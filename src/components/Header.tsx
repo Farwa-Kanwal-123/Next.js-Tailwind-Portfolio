@@ -11,7 +11,7 @@ const Header = () => {
           className="flex title-font font-medium items-center mt-2 md:ml-0 lg:ml-12 md:justify-center text-gray-900 md:mb-0"
         >
           <Image
-            src="/logo-p.jpeg"
+            src="/logo-p.jpg"
             alt="logo"
             width={120}
             height={120}
