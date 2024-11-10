@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
-import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3 } from "react-icons/tb";
-import { RiJavascriptLine } from "react-icons/ri";
-import { TbBrandTypescript } from "react-icons/tb";
-import { RiNextjsLine } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
+import { TbBrandCss3,TbBrandTypescript} from "react-icons/tb";
+import { RiJavascriptLine ,RiNextjsLine } from "react-icons/ri";
+import { AiOutlineHtml5 } from "react-icons/ai";
 import Footer from "@/components/Footer";
 
 const Skills = () => {
