@@ -19,7 +19,7 @@ const Contact = () => {
           {/* Name section code */}
           <section className="lg:w-1/2 md:w-2/3  mx-auto">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 flex flex-col w-full md:w-1/2">
+              <div className="p-2 flex flex-col w-full sm:w-1/2">
                 <div className="relative">
                   <label
                     htmlFor="name"
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
 
               {/* Email Section code */}
-              <section className="p-2 flex flex-col w-full md:w-1/2">
+              <section className="p-2 flex flex-col w-full sm:w-1/2">
                 <div className="relative">
                   <label
                     htmlFor="email"
