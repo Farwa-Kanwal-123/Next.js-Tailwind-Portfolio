@@ -6,6 +6,7 @@ import { RiJavascriptLine ,RiNextjsLine } from "react-icons/ri";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import Footer from "@/components/Footer";
 
+
 const Skills = () => {
   return (
     <section className="text-gray-200 body-font">

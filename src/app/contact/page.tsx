@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="container px-5 py-2 mx-auto">
           {/* Heading */}
           <section className="flex flex-col text-center w-full mb-10">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-8 text-yellow-500">
+            <h1 className="text-3xl md:text-4xl font-medium title-font mb-8 text-yellow-500">
               Contact Me!
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-200">
@@ -17,9 +17,9 @@ const Contact = () => {
           </section>
 
           {/* Name section code */}
-          <section className="lg:w-1/2 md:w-2/3 mx-auto">
+          <section className="lg:w-1/2 md:w-2/3  mx-auto">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 w-1/2">
+              <div className="p-2 flex flex-col w-full md:w-1/2">
                 <div className="relative">
                   <label
                     htmlFor="name"
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
 
               {/* Email Section code */}
-              <section className="p-2 w-1/2">
+              <section className="p-2 flex flex-col w-full md:w-1/2">
                 <div className="relative">
                   <label
                     htmlFor="email"
@@ -74,7 +74,7 @@ const Contact = () => {
 
               {/* Button */}
               <section className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+                <button className="flex mx-auto text-white bg-yellow-500 border-0 py-1 px-3 md:py-2 md:px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                   Submit
                 </button>
               </section>

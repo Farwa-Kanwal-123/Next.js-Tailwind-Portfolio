@@ -12,7 +12,7 @@ const Hero = () => {
             Hello, I am a
           </h1>
           <span
-            className="inline-block flex-grow text-transparent bg-clip-text bg-gradient-to-br from-yellow-100 to-yellow-600 text-2xl md:text-3xl lg:6xl p-2
+            className="flex-grow bg-gradient-to-br from-yellow-100 to-yellow-600 text-transparent bg-clip-text lg:text-4xl
           "
           >
             <TypeAnimation
@@ -24,22 +24,23 @@ const Hero = () => {
             />
           </span>
 
-          <p className="mb-8 text-gray-300 leading-relaxed">
+          <p className="my-4 text-gray-300 leading-relaxed">
             As a dedicated web developer, I specialize in creating stunning,
             user-friendly websites that captivate audiences and drive results.
             With a keen eye for design and a passion for code, I transform
             complex ideas into elegant digital solutions.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg font-semibold">
+            <button className="inline-flex text-white bg-yellow-500 border-0 py-1 md:py-2 px-3 md:px-6 focus:outline-none hover:bg-gray-500 rounded text-lg font-semibold">
               Hire Me!
             </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg font-semibold">
+            <button className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-1 md:py-2 px-3 md:px-6 focus:outline-none hover:bg-gray-300 rounded text-lg font-semibold">
               Contact Me
             </button>
           </div>
         </div>
-        <div className="mb-8 lg:max-w-lg lg:w-full md:w-1/2 w-4/6 pl-12 md:mt-0 ">
+        {/* portfolio image */}
+        <div className="mb-8 lg:max-w-lg lg:w-full md:w-1/2 w-4/6 md:pl-12 md:mt-0 ">
           <Image
             className=" object-cover object-center rounded-full shadow-shadow hover:shadow-sm "
             alt="hero"
