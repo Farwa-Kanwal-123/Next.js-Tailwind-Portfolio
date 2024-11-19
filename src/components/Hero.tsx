@@ -12,7 +12,7 @@ const Hero = () => {
             Hello, I am a
           </h1>
           <span
-            className="flex-grow bg-gradient-to-br from-yellow-100 to-yellow-600 text-transparent bg-clip-text lg:text-4xl
+            className="inline-block lg:py-2 flex-grow bg-gradient-to-br from-yellow-100 to-yellow-600 text-transparent bg-clip-text lg:text-4xl
           "
           >
             <TypeAnimation
