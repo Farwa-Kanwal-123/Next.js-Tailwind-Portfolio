@@ -1,21 +1,30 @@
 'use client'
 import React, { useState } from "react";
 import Link from "next/link";
+import { Merienda } from "next/font/google"
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
+
+const merienda = Merienda({ subsets: ['latin'],weight:"400"});
+
+
 const Header = () => {
+
+  // use state for hamburger menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
+
   return (
     <main>
       <div className="max-w-[1440px] lg:h-[83px]">
         <div className="px-6 md:px-16 py-4 lg:py-6  flex justify-between items-center">
           {/* logo */}
-          <h1 className="bg-gradient-to-br from-yellow-100 to-yellow-600 text-transparent bg-clip-text text-3xl md:text-4xl">
+          <h1 className={`${merienda.className} bg-gradient-to-br from-yellow-100 to-yellow-600 text-transparent bg-clip-text text-3xl md:text-5xl font-bold`}>
             Farwa&#39;s.
           </h1>
           {/* Navbar */}

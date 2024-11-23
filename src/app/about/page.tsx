@@ -5,17 +5,17 @@ import Footer from "@/components/Footer";
 
 const About = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container mx-auto flex px-5 py-6 items-center justify-center flex-col">
         <Image
-          className="lg:w-1/6 md:w-2/6 w-3/6 mb-12 object-cover object-center rounded-full shadow-shadow hover:shadow-sm"
-          alt="hero"
+          className=" w-3/6 md:w-2/6 lg:w-1/6 mb-12 object-cover object-center shadow-shadow hover:shadow-sm"
+          alt="about section image"
           src="/pf2.jpg"
           width={100}
           height={100}
         />
         <div className="text-center lg:w-2/3 w-full">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-500">
+          <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-yellow-300">
             About Me
           </h1>
           <p className="mb-8 leading-relaxed text-gray-300">
