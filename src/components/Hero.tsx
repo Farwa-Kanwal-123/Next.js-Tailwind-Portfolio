@@ -19,8 +19,9 @@ const Hero = () => {
               sequence={["Web Developer!", 1000, "UI/UX Designer!", 1000]}
               wrapper="span"
               speed={20}
-              style={{ fontSize: "2em" }}
+              style={{ fontSize: "2em"}}
               repeat={Infinity}
+              className="md:font-[1.5em] sm:font-[1em]"
             />
           </span>
 
